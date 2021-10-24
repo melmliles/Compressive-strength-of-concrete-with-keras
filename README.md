@@ -39,14 +39,18 @@ Build a baseline model, where we will use the Keras library to build a neural ne
 To evaluate the impact of a normalized data on the results, we will repeat Part A but we will use a normalized version of the data. Recall that one way to normalize the data is by subtracting the mean from the individual predictors and dividing by the standard deviation.
 
 * PART C:
-Increate the number of epochs:
-We will repeat Part B but with 100 epochs this time for training --> Evaluate how does the mean of the mean squared errors compare to that from Step B.
+
+Increase the number of epochs:
+
+We will repeat Part B but with 100 epochs this time for training 
+
+--> Evaluate how does the mean of the mean squared errors compare to that from Step B.
 
 * PART D:
+
 Increase the number of hidden layers:
 
 We will repeat part B but use a neural network with the following instead:
-
 -Three hidden layers, each of 10 nodes and ReLU activation function.
 
 --> Evaluate how does the mean of the mean squared errors compare to that from Step B.
